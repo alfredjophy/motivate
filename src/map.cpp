@@ -4,8 +4,8 @@
 
 int main(){
 
-        std::ifstream file("quotes.txt",std::ios::binary);
-        std::fstream map("quotes.map",std::ios::binary|std::ios::out);
+        std::ifstream file("data/quotes.txt",std::ios::binary);
+        std::fstream map("data/quotes.map",std::ios::binary|std::ios::out);
         
         std::string line;
         unsigned int position=0;

@@ -6,8 +6,8 @@ int main (){
 
         srand((unsigned) time(0));
         
-        std::ifstream quotes("quotes.txt",std::ios::binary);
-        std::ifstream map("quotes.map",std::ios::binary); 
+        std::ifstream quotes("/usr/share/motivate/quotes.txt",std::ios::binary);
+        std::ifstream map("/usr/share/motivate/quotes.map",std::ios::binary); 
         
 
         if(!quotes.is_open()||!map.is_open()){
