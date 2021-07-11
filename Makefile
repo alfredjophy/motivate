@@ -1,7 +1,8 @@
 PREFIX ?= /usr
 motivate:	src/motivate.cpp
-	g++ -o motivate src/motivate.cpp
-	g++ -o map src/map.cpp
+	mkdir build
+	g++ -o build/motivate src/motivate.cpp
+	g++ -o build/map src/map.cpp
 install:	motivate
 	./map
 	mkdir -p  $(DESTDIR)$(PREFIX)/bin
