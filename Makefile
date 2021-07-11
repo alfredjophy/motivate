@@ -10,5 +10,6 @@ install:	motivate
 	mkdir -p $(DESTDIR)$(PREFIX)/share/motivate
 	cp -p data/quotes.txt  $(DESTDIR)$(PREFIX)/share/motivate/
 	cp -p data/quotes.map $(DESTDIR)$(PREFIX)/share/motivate/
-
+clean:
+	rm -rf build/ *.tar.gz 
 

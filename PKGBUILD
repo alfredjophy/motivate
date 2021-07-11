@@ -1,7 +1,7 @@
 # Maintainer Alfred Jophy alfredjophy@protonmail.com
 pkgname=motivate
 pkgdesc="Gives you a motivational quote"
-pkgver=1.3.0
+pkgver=1.3.1
 pkgrel=1
 url="https://github.com/AlfredEVOL/motivate"
 arch=('x86_64')
@@ -12,7 +12,7 @@ package() {
         
         mkdir -p $pkgdir/usr/share/$pkgname
         mkdir -p $pkgdir/usr/bin
-        cp motivate "$pkgdir/usr/bin/"
-        cp data/quotes.map $pkgdir/usr/share/$pkgname
-        cp data/quotes.txt  $pkgdir/usr/share/$pkgname
+        cp build/motivate "$pkgdir/usr/bin/"
+        cp build/data/quotes.map $pkgdir/usr/share/$pkgname
+        cp build/data/quotes.txt  $pkgdir/usr/share/$pkgname
 }
