@@ -1,13 +1,20 @@
 #!/bin/bash
 
 pkgver=$1
-echo $pkgver
 
-cp -r data/ build/
+bold=$(tput bold)
+normal=$(tput sgr0)
 
-cd build
+echo "${bold}creating release $pkgver${normal}"
 
-./map >> /dev/null
+make
 
-cd ..
-tar czf motivate-$pkgver.tar.gz build/motivate build/data/quotes.map build/data/quotes.txt
+tar czf motivate-$pkgver.tar.gz build/
+
+gh release create $pkgver motivate-$pkgver.tar.gz
+
+echo "${bold}updating PKGBUILD${normal}"
+
+sed -i "/^pkgver*/c pkgver=$pkgver" PKGBUILD
+bat PKGBUILD
+
