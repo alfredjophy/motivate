@@ -2,20 +2,21 @@
 #include <fstream>
 #include <typeinfo>
 
-int main(){
-
-        std::ifstream file("data/quotes.txt",std::ios::binary);
-        std::fstream map("data/quotes.map",std::ios::binary|std::ios::out);
+int main(int argc , char* argv[]){
+        
+        if(argc != 3){
+                std::cout<<"2 arguments are required";
+                return 1;
+        }
+        std::ifstream file(argv[1],std::ios::binary);
+        std::fstream map(argv[2],std::ios::binary|std::ios::out);
         
         std::string line;
         unsigned int position=0;
         file.seekg(0,std::ios::beg);
         map.write(reinterpret_cast<char*>(&position),sizeof(unsigned int));
-        std::cout<<file.tellg()<<std::endl;
         while(getline(file,line)){
                 position=file.tellg();
-                std::cout<<position<<std::endl;
-                
                 map.write(reinterpret_cast<char*>(&position),sizeof(unsigned int));
         }
         file.close();
