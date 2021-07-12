@@ -1,15 +1,21 @@
 PREFIX ?= /usr
+BUILDDIR ?= build
 motivate:	src/motivate.cpp
-	mkdir build
-	g++ -o build/motivate src/motivate.cpp
-	g++ -o build/map src/map.cpp
+	mkdir -p $(BUILDDIR)
+	g++ -o $(BUILDDIR)/motivate src/motivate.cpp
+	g++ -o $(BUILDDIR)/map src/map.cpp
+	mkdir -p $(BUILDDIR)/data
+	cp data/quotes.txt $(BUILDDIR)/data/
+	$(BUILDDIR)/map $(BUILDDIR)/data/quotes.txt $(BUILDDIR)/data/quotes.map
 install:	motivate
-	./map
 	mkdir -p  $(DESTDIR)$(PREFIX)/bin
-	cp -p motivate $(DESTDIR)$(PREFIX)/bin
+	cp -p $(BUILDDIR)/motivate $(DESTDIR)$(PREFIX)/bin
 	mkdir -p $(DESTDIR)$(PREFIX)/share/motivate
-	cp -p data/quotes.txt  $(DESTDIR)$(PREFIX)/share/motivate/
-	cp -p data/quotes.map $(DESTDIR)$(PREFIX)/share/motivate/
+	cp -p $(BUILDDIR)/data/quotes.txt  $(DESTDIR)$(PREFIX)/share/motivate/
+	cp -p $(BUILDDIR)/data/quotes.map $(DESTDIR)$(PREFIX)/share/motivate/
+uninstall:
+	rm -rf $(DESTDIR)$(PREFIX)/bin/motivate
+	rm -rf $(DESTDIR)$(PREFIX)/share/motivate
 clean:
 	rm -rf build/ *.tar.gz 
 
