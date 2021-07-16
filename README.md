@@ -1,6 +1,6 @@
 # Motivate
 
-### gives u a motivational quote
+gives u a motivational quote
 
 ## Credits
 
