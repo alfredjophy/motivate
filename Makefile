@@ -1,5 +1,6 @@
 PREFIX ?= /usr
 BUILDDIR ?= build
+
 motivate:	src/motivate.cpp
 	mkdir -p $(BUILDDIR)
 	g++ -o $(BUILDDIR)/motivate src/motivate.cpp
