@@ -4,7 +4,7 @@
 
 2. Make a python script named `extract.py` to store the quotes as a single json file , named quotes.json
 
-    * The format for the json file will is simple list of dictonaries with the form:
+    * The format for the json file is list of dictonaries with the form:
 
         ```
         {
