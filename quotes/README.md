@@ -7,10 +7,10 @@
     * The format for the json file will is simple
         A list of dictonaries with the form:
         ```
-{
-    "quote" : "This is quote"
-    "author" : "I said the above"
-}
+        {
+            "quote" : "This is quote"
+            "author" : "I said the above"
+        }
         ```
 
 
