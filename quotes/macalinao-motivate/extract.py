@@ -10,8 +10,8 @@ data=[]
 for i in quotes:
     newQuote={"quote" : i["body"],"author": i["source"]}
     data.append(newQuote)
-json_data=json.dumps(data)
+json_data=json.dumps(data,indent=4,sort_keys=True)
 
-print(json_data)
-
+k=open("quotes.json","w")
+k.write(json_data)
 

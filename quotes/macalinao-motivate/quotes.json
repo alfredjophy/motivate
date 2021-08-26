@@ -1,0 +1,886 @@
+[
+    {
+        "author": "Nike",
+        "quote": "Yesterday, you said tomorrow."
+    },
+    {
+        "author": "Jon Acuff",
+        "quote": "Don't compare your beginning to someone else's middle."
+    },
+    {
+        "author": "George Santayana",
+        "quote": "The wisest mind has something yet to learn."
+    },
+    {
+        "author": "Mahatma Gandhi",
+        "quote": "Be the change you wish to see in the world."
+    },
+    {
+        "author": "Winston Churchill",
+        "quote": "When you're going through hell, keep going."
+    },
+    {
+        "author": "Danielle LaPorte",
+        "quote": "Don't let perfection become procrastination. Do it now."
+    },
+    {
+        "author": "Danielle LaPorte",
+        "quote": "Launch and learn. Everything is progress."
+    },
+    {
+        "author": "Karen Lamb",
+        "quote": "A year from now you will wish you had started today."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Failure is success if you learn from it."
+    },
+    {
+        "author": "Jim Rohn",
+        "quote": "If you don't like where you are, change it. You're not a tree."
+    },
+    {
+        "author": "Jack Canfield",
+        "quote": "If it ain't fun, don't do it."
+    },
+    {
+        "author": "Risa Rodil",
+        "quote": "A wet man does not fear the rain."
+    },
+    {
+        "author": "Whole Earth Epilog, 1974",
+        "quote": "Stay hungry; stay foolish."
+    },
+    {
+        "author": "Paul Carus, summarized from the Dhammapada, verse 165",
+        "quote": "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Never give up. Never let things out of your control dictate who you are."
+    },
+    {
+        "author": "Ian Maclaren",
+        "quote": "Be kind; everyone you meet is fighting a hard battle."
+    },
+    {
+        "author": "Muhammed Ali",
+        "quote": "Impossible is just a big word thrown around by small men who find it easier to live in the world they've been given than to explore the power they have to change it."
+    },
+    {
+        "author": "Andrew Carnegie",
+        "quote": "People who are unable to motivate themselves must be content with mediocrity no matter how impressive their other talents."
+    },
+    {
+        "author": "George Bernard Shaw",
+        "quote": "Progress is impossible without change, and those who cannot change their minds cannot change anything."
+    },
+    {
+        "author": "Carmel McConnell",
+        "quote": "Do more of what makes you happy."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Do a little more of what you want to do every day, until your idea becomes what's real."
+    },
+    {
+        "author": "Danielle LaPorte",
+        "quote": "You got this. Make it happen."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Don't blame others as an excuse for your not working hard enough."
+    },
+    {
+        "author": "Lao Tzu",
+        "quote": "Care about what other people think and you will always be their prisoner."
+    },
+    {
+        "author": "Elbert Hubbard",
+        "quote": "To escape criticism: do nothing, say nothing, be nothing."
+    },
+    {
+        "author": "Elbert Hubbard",
+        "quote": "The world is moving so fast that the man who says it can't be done is generally interrupted by someone doing it."
+    },
+    {
+        "author": "Dr. Seuss",
+        "quote": "Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind."
+    },
+    {
+        "author": "Paulo Coelho",
+        "quote": "One day you will wake up and there won't be any more time to do the things you've always wanted. Do it now."
+    },
+    {
+        "author": "Dwight D. Eisenhower",
+        "quote": "Never waste a minute thinking about people you don't like."
+    },
+    {
+        "author": "AWOLNATION, \"Kill Your Heroes\"",
+        "quote": "Never let your fear decide your fate."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Keep moving forward. One step at a time."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Life is simple. Are you happy? Yes? Keep going. No? Change something."
+    },
+    {
+        "author": "Unknown",
+        "quote": "The journey of a thousand miles begins with a single step."
+    },
+    {
+        "author": "Nicholas Klein",
+        "quote": "First they ignore you. Then they laugh at you. Then they fight you. Then you win."
+    },
+    {
+        "author": "Mahatma Gandhi",
+        "quote": "A man is but the product of his thoughts. What he thinks, he becomes."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever."
+    },
+    {
+        "author": "Mahatma Gandhi",
+        "quote": "The future depends on what we do in the present."
+    },
+    {
+        "author": "Unknown",
+        "quote": "I am strong because I've been weak. I am fearless because I've been afraid. I am wise because I've been foolish."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Believe in yourself."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Lower the cost of failure."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Keep your goals away from the trolls."
+    },
+    {
+        "author": "Robert Tew",
+        "quote": "Respect yourself enough to walk away from anything that no longer serves you, grows you, or makes you happy."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Everything around you that you call life was made up by people, and you can change it."
+    },
+    {
+        "author": "Eric Hoffer",
+        "quote": "In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists."
+    },
+    {
+        "author": "Unknown",
+        "quote": "If you fear failure, you will never go anywhere."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Go ahead, let them judge you."
+    },
+    {
+        "author": "Unknown",
+        "quote": "The world breaks everyone and afterward many are strong at the broken places."
+    },
+    {
+        "author": "Matthew Jeffers",
+        "quote": "The only disability in life is a bad attitude."
+    },
+    {
+        "author": "Albert Einstein",
+        "quote": "If most of us are ashamed of shabby clothes and shoddy furniture, let us be more ashamed of shabby ideas and shoddy philosophies."
+    },
+    {
+        "author": "J. Krishnamurti",
+        "quote": "It is no measure of health to be well adjusted to a profoundly sick society."
+    },
+    {
+        "author": "Miyamoto Musashi",
+        "quote": "Think lightly of yourself and deeply of the world."
+    },
+    {
+        "author": "Jake, \"Adventure Time\"",
+        "quote": "Dude, suckin' at something is the first step to being sorta good at something."
+    },
+    {
+        "author": "Unknown",
+        "quote": "As you think, so shall you become."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "Do not wish for an easy life. Wish for the strength to endure a difficult one."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "Showing off is the fool's idea of glory."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "Use only that which works, and take it from any place you can find it."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "I'm not in this world to live up to your expectations and you're not in this world to live up to mine."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "If you spend too much time thinking about a thing, you'll never get it done."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "Knowing is not enough, we must apply. Willing is not enough, we must do."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "Empty your cup so that it may be filled; become devoid to gain totality."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "It's not the daily increase but daily decrease. Hack away at the unessential."
+    },
+    {
+        "author": "Oscar Wilde",
+        "quote": "Be yourself. Everyone else is already taken."
+    },
+    {
+        "author": "Martin Luther King Jr.",
+        "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that."
+    },
+    {
+        "author": "Bil Keane",
+        "quote": "Yesterday is history; tomorrow is a mystery. Today is a gift, which is why we call it the present."
+    },
+    {
+        "author": "Albert Einstein",
+        "quote": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world."
+    },
+    {
+        "author": "Thomas Edison",
+        "quote": "I have not failed. I've just found 10,000 ways that won't work."
+    },
+    {
+        "author": "Unknown",
+        "quote": "When I let go of what I am, I become what I might be."
+    },
+    {
+        "author": "George Eliot",
+        "quote": "It is never too late to be what you might have been."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "Always be yourself, express yourself, have faith in yourself. Do not go out and look for a successful personality and duplicate it."
+    },
+    {
+        "author": "Lao Tzu",
+        "quote": "When you are content to be simply yourself and don't compare or compete, everyone will respect you."
+    },
+    {
+        "author": "Lao Tzu",
+        "quote": "If you want to awaken all of humanity, awaken all of yourself."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Don't regret anything you do, because in the end it makes you who you are."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Tension is who you think you should be. Relaxation is who you are."
+    },
+    {
+        "author": "Unknown",
+        "quote": "You are confined only by the walls you build yourself."
+    },
+    {
+        "author": "Ralph Waldo Emerson",
+        "quote": "Unless you try to do something beyond what you have already mastered you will never grow."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Don't think about what might go wrong, think about what could be right."
+    },
+    {
+        "author": "Lao Tzu",
+        "quote": "What the caterpillar calls the end, the rest of the world calls a butterfly."
+    },
+    {
+        "author": "Thich Nhat Hanh",
+        "quote": "To be beautiful means to be yourself. You don't need to be accepted by others. You need to be yourself."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Let go of those who bring you down and surround yourself with those who bring out the best in you."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Don't let small minds convince you that your dreams are too big."
+    },
+    {
+        "author": "Maya Angelou",
+        "quote": "If you don't like something, change it. If you can't change it, change your attitude. Don't complain."
+    },
+    {
+        "author": "Maya Angelou",
+        "quote": "You may not control all the events that happen to you, but you can decide not to be reduced by them."
+    },
+    {
+        "author": "Maya Angelou",
+        "quote": "I've learned that you shouldn't go through life with a catcher's mitt on both hands; you need to be able to throw something back."
+    },
+    {
+        "author": "Maya Angelou",
+        "quote": "I don't trust people who don't love themselves and tell me, 'I love you.' There is an African saying which is: 'Be careful when a naked person offers you a shirt.'"
+    },
+    {
+        "author": "Maya Angelou",
+        "quote": "People will forget what you said, people will forget what you did, but people will never forget how you made them feel."
+    },
+    {
+        "author": "Arnold Schwarzenegger",
+        "quote": "You can't climb the ladder of success with your hands in your pockets."
+    },
+    {
+        "author": "Unknown",
+        "quote": "You can feel sore tomorrow or you can feel sorry tomorrow. You choose."
+    },
+    {
+        "author": "Isocrates",
+        "quote": "It is more important to know where you are going than to get there quickly. Do not mistake activity for achievement."
+    },
+    {
+        "author": "Unknown",
+        "quote": "There are seven days in the week and someday isn't one of them."
+    },
+    {
+        "author": "Arthur Ashe",
+        "quote": "Start where you are. Use what you can. Do what you can."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Dreams don't work unless you do."
+    },
+    {
+        "author": "Unknown",
+        "quote": "When you wake up in the morning you have two choices: go back to sleep, or wake up and chase those dreams."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Everybody comes to a point in their life when they want to quit, but it's what you do at that moment that determines who you are."
+    },
+    {
+        "author": "Unknown",
+        "quote": "This is your life. Do what you love, and do it often."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Live your dream, and wear your passion."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Today I will do what others won't, so tomorrow I can do what others can't."
+    },
+    {
+        "author": "Unknown",
+        "quote": "The biggest room in the world is room for improvement."
+    },
+    {
+        "author": "Unknown",
+        "quote": "If people aren't laughing at your dreams, your dreams aren't big enough."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Never look back unless you are planning to go that way."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Every dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world."
+    },
+    {
+        "author": "Unknown",
+        "quote": "You are awesome."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Simplicity is the ultimate sophistication."
+    },
+    {
+        "author": "Henry Ford",
+        "quote": "Anyone who stops learning is old."
+    },
+    {
+        "author": "Unknown",
+        "quote": "The cure to boredom is curiosity."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway."
+    },
+    {
+        "author": "Unknown",
+        "quote": "It's time to start living the life you've only imagined."
+    },
+    {
+        "author": "Unknown",
+        "quote": "You don't have to live your life the way other people expect you to."
+    },
+    {
+        "author": "Unknown",
+        "quote": "The trouble with not having a goal is that you can spend your life running up and down the field and never score."
+    },
+    {
+        "author": "Unknown",
+        "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Incredible change happens in your life when you decide to take control of what you do have power over instead of craving control over what you don't."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Do more with less."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Overthinking ruins you. Ruins the situation, twists it around, makes you worry and just makes everything much worse than it actually is."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Replace fear of the unknown with curiosity."
+    },
+    {
+        "author": "Unknown",
+        "quote": "The surest way to find your dream job is to create it."
+    },
+    {
+        "author": "Unknown",
+        "quote": "What you do today is important because you are exchanging a day of your life for it."
+    },
+    {
+        "author": "Unknown",
+        "quote": "One man or woman with courage is a majority."
+    },
+    {
+        "author": "Eleanor Roosevelt",
+        "quote": "Do one thing every day that scares you."
+    },
+    {
+        "author": "Henry Ford",
+        "quote": "Failure is simply the opportunity to begin again, this time more intelligently."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Don't just wait for inspiration. Become it."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Don't limit your challenges - challenge your limits."
+    },
+    {
+        "author": "Wayne Dyer",
+        "quote": "When you judge others, you do not define them; you define yourself."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Time you enjoy wasting is not wasted time."
+    },
+    {
+        "author": "Mother Teresa",
+        "quote": "Do small things with great love."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Go forth and make awesomeness."
+    },
+    {
+        "author": "Napolean Hill",
+        "quote": "Your big opportunity may be right where you are now."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Life begins at the end of your comfort zone."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Excuses are born out of fear. Eliminate your fear and there will be no excuses."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Happiness is not the absence of problems, it's the ability to deal with them."
+    },
+    {
+        "author": "Unknown",
+        "quote": "The problem is not the problem. The problem is your attitude about the problem."
+    },
+    {
+        "author": "Unknown",
+        "quote": "You don't have to be great to start, but you have to start to be great."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Cherish your visions and your dreams as they are the children of your soul, the blueprints of your ultimate achievements."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Decide that you want it more than you are afraid of it."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Adventure may hurt you, but monotony will kill you."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Obsessed is a word that the lazy use to describe the dedicated."
+    },
+    {
+        "author": "Unknown",
+        "quote": "If they can do it, so can you."
+    },
+    {
+        "author": "Behance 99U",
+        "quote": "Success isn't about being the best. It's about always getting better."
+    },
+    {
+        "author": "Winston Churchill",
+        "quote": "Success is the ability to go from failure to failure without losing your enthusiasm."
+    },
+    {
+        "author": "Winston Churchill",
+        "quote": "A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Failure is just practice for success."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Shipping beats perfection."
+    },
+    {
+        "author": "Henry Ford",
+        "quote": "Failure is simply the opportunity to begin again. This time more intelligently."
+    },
+    {
+        "author": "Seneca",
+        "quote": "While we are postponing, life speeds by."
+    },
+    {
+        "author": "Nelson Mandela",
+        "quote": "It always seems impossible until it's done."
+    },
+    {
+        "author": "Zig Ziglar",
+        "quote": "Don't let the mistakes and disappointments of the past control and direct your future."
+    },
+    {
+        "author": "Unknown",
+        "quote": "It's not about where your starting point is, but your end goal and the journey that will get you there."
+    },
+    {
+        "author": "Marcus Aurelius",
+        "quote": "Waste no more time arguing about what a good person should be. Be one."
+    },
+    {
+        "author": "Ana\u00c3\u00afs Nin",
+        "quote": "Life shrinks or expands in proportion to one's courage."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "Absorb what is useful. Discard what is not. Add what is uniquely your own."
+    },
+    {
+        "author": "Henry Ford",
+        "quote": "Don't find fault. Find a remedy."
+    },
+    {
+        "author": "Karim Seddiki",
+        "quote": "Doubt kills more dreams than failure ever will."
+    },
+    {
+        "author": "Zig Ziglar",
+        "quote": "Don't let someone who gave up on their dreams talk you out of going after yours."
+    },
+    {
+        "author": "Dean Acheson",
+        "quote": "Always remember that the future comes one day at a time."
+    },
+    {
+        "author": "Ursula K. Le Guin",
+        "quote": "The creative adult is the child who survived."
+    },
+    {
+        "author": "Thomas Edison",
+        "quote": "When you have exhausted all possibilities, remember this: you haven't."
+    },
+    {
+        "author": "Zig Ziglar",
+        "quote": "When you see a person without a smile, give them one of yours."
+    },
+    {
+        "author": "Vincent Van Gogh",
+        "quote": "If you hear a voice within you say 'you cannot paint,' then by all means paint and that voice will be silenced."
+    },
+    {
+        "author": "Thucydides",
+        "quote": "The secret to happiness is freedom. And the secret to freedom is courage."
+    },
+    {
+        "author": "Nelson Mandela",
+        "quote": "May your choices reflect your hopes, not your fears."
+    },
+    {
+        "author": "Dalai Lama",
+        "quote": "Once a year, go some place you've never been before."
+    },
+    {
+        "author": "Margaret Meade",
+        "quote": "Never underestimate the ability of a small group of dedicated people to change the world. Indeed, it is the only thing that ever has."
+    },
+    {
+        "author": "Nelson Mandela",
+        "quote": "To be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others."
+    },
+    {
+        "author": "Thich Nhat Hanh",
+        "quote": "Today is the most important day of our lives."
+    },
+    {
+        "author": "Maya Angelou",
+        "quote": "All great achievements require time."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Winning starts with beginning."
+    },
+    {
+        "author": "Unknown",
+        "quote": "If you're not doing what you love, you're wasting your time."
+    },
+    {
+        "author": "Bruce Lee",
+        "quote": "A goal is not always meant to be reached, it often serves simply as something to aim at."
+    },
+    {
+        "author": "Unknown",
+        "quote": "The struggle ends when the gratitude begins."
+    },
+    {
+        "author": "Alan Watts",
+        "quote": "Muddy water is best cleared by leaving it alone."
+    },
+    {
+        "author": "Eric Hoffer",
+        "quote": "Someone who thinks the world is always cheating him is right. He is missing that wonderful feeling of trust in someone or something."
+    },
+    {
+        "author": "Galileo Galilei",
+        "quote": "We cannot teach people anything. We can only help them discover it within themselves."
+    },
+    {
+        "author": "Annie Dillard",
+        "quote": "How we spend our days is, of course, how we spend our lives."
+    },
+    {
+        "author": "Vincent Van Gogh",
+        "quote": "I would rather die of passion than of boredom."
+    },
+    {
+        "author": "Laird Hamilton",
+        "quote": "Make sure your worst enemy doesn't live between your two ears."
+    },
+    {
+        "author": "Maya Angelou",
+        "quote": "You can't use up creativity. The more you use the more you have."
+    },
+    {
+        "author": "Unknown",
+        "quote": "The secret of change is to focus all of your energy, not on fighting the old but on building the new."
+    },
+    {
+        "author": "Peter Drucker",
+        "quote": "Whenever you see a successful business, someone once made a courageous decision."
+    },
+    {
+        "author": "Unknown",
+        "quote": "If you stumble make it part of the dance."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Each day wake up and ask yourself what will make you feel most alive that day."
+    },
+    {
+        "author": "Confucius",
+        "quote": "Choose a job you love and you will never have to work a day of your life."
+    },
+    {
+        "author": "Lou Holtz",
+        "quote": "It is not the load that breaks you down. It's the way you carry it."
+    },
+    {
+        "author": "Unknown",
+        "quote": "If you want to go fast, go alone. If you want to go far, bring others along."
+    },
+    {
+        "author": "Unknown",
+        "quote": "Decide that you want it more than you are afraid of it."
+    },
+    {
+        "author": "Sir Ken Robinson",
+        "quote": "Children are wonderfully confident in their own imaginations. Most of us lose this confidence as we grow up."
+    },
+    {
+        "author": "Jean Luc Picard",
+        "quote": "It is possible to commit no mistakes and still lose. That is not a weakness; that is life."
+    },
+    {
+        "author": "Nelson Mandela",
+        "quote": "So many of our dreams at first seem impossible. Then they seem improbable. And then, when we summon the will, they soon become inevitable."
+    },
+    {
+        "author": "Greg McKeown",
+        "quote": "If you don't prioritize your life, someone else will."
+    },
+    {
+        "author": "Richard Bach",
+        "quote": "Argue for your limitations, and surely they're yours."
+    },
+    {
+        "author": "David Burns",
+        "quote": "There is only one person who could ever make you happy, and that person is you."
+    },
+    {
+        "author": "Unknown",
+        "quote": "A goal without a plan is only a wish."
+    },
+    {
+        "author": "Six Degrees of Separation",
+        "quote": "Every person is a new door to a different world."
+    },
+    {
+        "author": "Unknown",
+        "quote": "On your journey through life, make sure your biography has at least one extraordinary chapter."
+    },
+    {
+        "author": "Steve Jobs",
+        "quote": "The journey is the reward."
+    },
+    {
+        "author": "Buddha",
+        "quote": "Know well what leads you forward and what holds you back, and choose the path that leads you to wisdom."
+    },
+    {
+        "author": "Pablo Picasso",
+        "quote": "The meaning of life is to find your gift. The purpose of life is to give it away."
+    },
+    {
+        "author": "Stephen McCranie",
+        "quote": "The master has failed more times than the beginner has even tried."
+    },
+    {
+        "author": "Savas Dimopoulos",
+        "quote": "Jumping from failure to failure with undiminished enthusiasm is the big secret to success."
+    },
+    {
+        "author": "Naguib Mahfouz",
+        "quote": "Fear does not prevent death. It prevents life."
+    },
+    {
+        "author": "Vincent Van Gogh",
+        "quote": "Great things are done by a series of small things brought together."
+    },
+    {
+        "author": "Walt Disney",
+        "quote": "The way to get started is to quit talking and begin doing."
+    },
+    {
+        "author": "Karen Salmansohn",
+        "quote": "What are the most powerful words in the universe? The ones you use to talk to yourself."
+    },
+    {
+        "author": "Hermann Hesse",
+        "quote": "Within you is a stillness and a sanctuary to which you can retreat at any time and be yourself."
+    },
+    {
+        "author": "Richard Branson",
+        "quote": "Spend more time smiling than frowning and more time praising than criticizing."
+    },
+    {
+        "author": "Jim Rohn",
+        "quote": "Success is something you attract by the person you become."
+    },
+    {
+        "author": "A. A. Milne",
+        "quote": "Always remember you are braver than you believe, stronger than you seem, and smarter than you think"
+    },
+    {
+        "author": "Winnie the Pooh",
+        "quote": "Don't underestimate the value of doing nothing, of just going along, listening to all the things you can't hear, and not bothering."
+    },
+    {
+        "author": "Merlin, \"Sword in the Stone\"",
+        "quote": "It's up to you how far you go. If you don't try, you'll never know!"
+    },
+    {
+        "author": "Archimedes, \"Sword in the Stone\"",
+        "quote": "The only way to learn it is to do it."
+    },
+    {
+        "author": "Unknown",
+        "quote": "In matters of style swim with the current. In matters of principle, stand like a rock."
+    },
+    {
+        "author": "C. S. Lewis",
+        "quote": "You are never too old to set another goal or to dream a new dream."
+    },
+    {
+        "author": "Mahatma Gandhi",
+        "quote": "Whenever you are confronted with an opponent, conquer him with love."
+    },
+    {
+        "author": "Steve Jobs",
+        "quote": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle."
+    },
+    {
+        "author": "Alexandra K. Trenfor",
+        "quote": "The best teachers are those who show you where to look, but don't tell you what to see."
+    },
+    {
+        "author": "Henry David Thoreau",
+        "quote": "It's not what you look at that matters, it's what you see."
+    },
+    {
+        "author": "Immanuel Kant",
+        "quote": "Rules for happiness: something to do, someone to love, something to hope for."
+    },
+    {
+        "author": "Karen Salmansohn",
+        "quote": "When feeling overwhelmed by a faraway goal, repeat the following: I have it within me right now, to get me to where I want to be later."
+    },
+    {
+        "author": "Roald Dahl",
+        "quote": "If you have good thoughts they will shine out of your face like sunbeams and you will always look lovely."
+    },
+    {
+        "author": "Marcus Aurelius",
+        "quote": "You have power over your mind -- not outside events. Realize this, and you will find strength."
+    },
+    {
+        "author": "Jonathan Safran Foer",
+        "quote": "You cannot protect yourself from sadness without protecting yourself from happiness."
+    },
+    {
+        "author": "William James",
+        "quote": "Act as if what you do makes a difference. It does."
+    },
+    {
+        "author": "Khalil Gibran",
+        "quote": "Progress lies not in enhancing what is, but in advancing toward what will be."
+    },
+    {
+        "author": "Matsuo Basho",
+        "quote": "Sitting quietly, doing nothing, Spring comes, and the grass grows by itself."
+    }
+]

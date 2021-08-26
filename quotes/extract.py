@@ -1,16 +1,23 @@
 #!/bin/python
-import sys,os,json
+import sys,os,json,random
 
-dirs=["source1","source2"]
+ls=os.listdir()
+dirs=[]
+
+for i in ls:
+    if os.path.isdir(i):
+        dirs.append(i)
 
 combined=[]
 for i in dirs:
-    f=open(i+"/source.json",'r')
+    f=open(i+"/quotes.json",'r')
     quotes=json.load(f)
     for j in quotes:
         combined.append(j)
 
-json_data=json.dumps(combined)
+random.shuffle(combined)
+
+json_data=json.dumps(combined,indent=4,sort_keys=True)
 
 try :
     os.remove('quotes.json')

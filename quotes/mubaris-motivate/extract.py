@@ -3,6 +3,7 @@
 import json
 
 data=[]
+
 for i in range(1,183) :
     
     name=""
@@ -19,8 +20,9 @@ for i in range(1,183) :
         newQuote={"quote" : j["quote"],"author" : j["author"]}
         data.append(newQuote)
 
-json_data=json.dumps(data)
+json_data=json.dumps(data,indent=4,sort_keys=True)
 
-print(json_data)
+k=open("quotes.json","w")
+k.write(json_data)
 
 
