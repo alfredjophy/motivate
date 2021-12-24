@@ -4,7 +4,7 @@ BUILDDIR ?= build
 motivate:	src/motivate.cpp
 	mkdir -p $(BUILDDIR)
 	g++ -o $(BUILDDIR)/motivate src/motivate.cpp
-	g++ -o $(BUILDDIR)/map src/map.cpp
+	gcc -o $(BUILDDIR)/map src/map.c
 	mkdir -p $(BUILDDIR)/data
 	cp data/quotes.txt $(BUILDDIR)/data/
 	$(BUILDDIR)/map $(BUILDDIR)/data/quotes.txt $(BUILDDIR)/data/quotes.map

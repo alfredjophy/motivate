@@ -1,10 +1,13 @@
 #include <fstream>
 #include <cstdlib>
-#include <ctime>
 
 int main (){ 
 
-    srand((unsigned) time(0));
+    unsigned int seed;
+    FILE* urandom = fopen("/dev/urandom", "r");
+    fread(&seed, sizeof(int), 1, urandom);
+    fclose(urandom);
+    srand(seed);
 
     std::ifstream quotes("/usr/share/motivate/quotes.txt",std::ios::binary);
     std::ifstream map("/usr/share/motivate/quotes.map",std::ios::binary); 

@@ -7,11 +7,10 @@ using namespace rapidjson;
 using namespace std;
 
 int main(int argc,char** argv){
-
     ifstream ifs("quotes.json");
     IStreamWrapper isw(ifs);
     ofstream data("quotes.dat",ios::binary);
-
+    ofstream data_tx("quotes.txt");
     Document quotes;
     quotes.ParseStream(isw);
     assert(quotes.IsArray());
@@ -23,6 +22,7 @@ int main(int argc,char** argv){
 
         data.write((char*)&q,sizeof(q));
         data.write((char*)&a, sizeof(a));
+        data_tx<<q<<a<<endl;
         
     }
     return 0;
