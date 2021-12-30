@@ -1,20 +1,48 @@
 #include <fstream>
 #include <cstdlib>
 
+#define printF(c_format,str,style,fg_color,bg_color)  printf("\033[0m\033[%d;%d;%dm%s%s\033[0m",style,fg_color,bg_color+10,c_format,str)
 
-inline void printF(const char* c_format,const char *str,int style=0,int fg_color=1,int bg_color=0) {
-    printf("\033[%d;%d;%dm%s%s\033[0m",style,fg_color+30,bg_color+40,c_format,str);
-}
+#define charToColorCode(x) 30+x-'0'+(60-'A'+'0')*('A'<=x&&x<='H')   // maps 0-9 to 30-39 and A-H to 90-97
 
 int main (int argc,char **argv) {
 
-    // accept 3 arguments
-    int quote_style[3]= {0,2,0};
-    int author_style[3]= {3,1,0};
-
+    // accept 6 digit hex default 0283A8
+    int quote_style[3]= {0,32,8};   // 0 2 8
+    int author_style[3]= {3,91,8};  // 3 B 8
+    
     if(argc>1) {
         if(argv[1][0]=='-'&&argv[1][1]=='h') {
-            printf("Motivate - Gives you a motivational quote\nUsage: motivational [-h] [format]\n\n\tFor help   -h \n\n\tFormatting can be done for the quote and the author name\n\tEach format accept 3 arguments - style foreground_color background color\n\tThe default theme has args 0 2 0 3 1 0\n\t$ motivate 0 2 0 3 1 0\n\t6 arguments are necessary\n\n\tFormatting Styles (features like blinking depends on the terminal emulator)\n\tRESET		  0\n\tBRIGHT 		  1\n\tDIM		  2\n\tUNDERLINE 	  3\n\tBLINK		  4\n\tREVERSE		  7\n\tHIDDEN		  8\n\tSTRIKETHROUGH     9\n\n\tColors\n\tBLACK 		 0\n\tRED		 1\n\tGREEN		 2\n\tYELLOW		 3\n\tBLUE		 4\n\tMAGENTA		 5\n\tCYAN		 6\n\tWHITE		 7\n");
+            printf("Usage: motivate [-h] [quote_style author_style]\n");
+            printf("Formatting can be done by 3 separate digits - formatting_style foreground_color background_color\n");
+            printf("The quote and author style require 3 args each.\n\n");
+            printf("The default is: quote_style - 0 2 8 author_style - 3 B 8\n");
+            printf("Usage : $ motivate 0 2 8 3 B 8\n\n");
+            printf("The behaviour of formatting_style can vary based on the terminal emulator.\n\n");
+            //----------------------------------------------------------------------------------
+            printf("FORMATTING OPTIONS\n\n");
+            printf("\tRESET         0\n");
+            printf("\tBRIGHT        1\n");
+            printf("\tDIM           2\n");
+            printf("\tUNDERSCORE    3\n");
+            printf("\tBLINK         4\n");
+            printf("\tREVERSE       5\n");
+            printf("\tHIDDEN        6\n");
+            printf("\tHIGHLIGHT     7\n");
+            printf("\tSTRIKETHROUGH 9\n\n");
+            //----------------------------------------------------------------------------------
+            printf("COLOR OPTIONS - sourced from the terminal's theme (each color has a normal and a bright variant)\n\n");
+            printf("\tBLACK         0   A\n");
+            printf("\tRED           1   B\n");
+            printf("\tGREEN         2   C\n");
+            printf("\tYELLOW        3   D\n");
+            printf("\tBLUE          4   E\n");
+            printf("\tMAGENTA       5   F\n");
+            printf("\tCYAN          6   G\n");
+            printf("\tWHITE         7   H\n");
+            printf("\tNOCOLOR       8       works only for background_color\n\n");
+
+            printf("For more details, checkout the SGR section : https://en.wikipedia.org/wiki/ANSI_escape_code\n");
             return 0;
         }
         else if(argc!=7) {
@@ -23,11 +51,11 @@ int main (int argc,char **argv) {
         }
         else {
             quote_style[0]=argv[1][0]-'0';
-            quote_style[1]=argv[2][0]-'0';
-            quote_style[2]=argv[3][0]-'0';
+            quote_style[1]=charToColorCode(argv[2][0]);
+            quote_style[2]=charToColorCode(argv[3][0]);
             author_style[0]=argv[4][0]-'0';
-            author_style[1]=argv[5][0]-'0';
-            author_style[2]=argv[6][0]-'0';
+            author_style[1]=charToColorCode(argv[5][0]);
+            author_style[2]=charToColorCode(argv[6][0]);
         }
     }
 
@@ -61,6 +89,7 @@ int main (int argc,char **argv) {
     printF("",line.c_str(),quote_style[0],quote_style[1],quote_style[2]);
     getline(quotes,line);
     printF("\n\t- ",line.c_str(),author_style[0],author_style[1],author_style[2]);
+    printf("\n");
 
     quotes.close();
     map.close();

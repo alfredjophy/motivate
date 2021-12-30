@@ -1,3 +1,5 @@
 build/
 *.tar.gz
 *.o
+*.asm
+
