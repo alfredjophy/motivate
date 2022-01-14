@@ -2,6 +2,8 @@
 
 Gives u a motivational quote
 
+![Demo](./media/motivate.gif)
+
 ```
 Usage: motivate [-h] [quote_style author_style]
 Formatting can be done by 3 separate digits - formatting_style foreground_color background_color
