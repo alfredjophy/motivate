@@ -2,7 +2,7 @@
 
 Gives u a motivational quote
 
-![Demo](./media/motivate.gif)
+![Demo](./media/motivate.png)
 
 ```
 Usage: motivate [-h] [quote_style author_style]
